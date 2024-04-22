@@ -17,8 +17,8 @@ def ordenar_usuarios(lista):
 
 
 # Teste
-lista = [('Mário', 19), ('Talita', 19), ('Leila', 25), ('Erick', 31), ('Elon', 52), ('Alexandre', 55)]
+lista_teste = [('Mário', 19), ('Talita', 19), ('Leila', 25), ('Erick', 31), ('Elon', 52), ('Alexandre', 55)]
 
-lista_ordenada = ordenar_usuarios(lista)
+lista_ordenada = ordenar_usuarios(lista_teste)
 
 print(lista_ordenada)
